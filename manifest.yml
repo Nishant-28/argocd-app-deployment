@@ -1,0 +1,10 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: ArgoCD-App
+spec:
+  containers:
+  - name: ArgoCD-App
+    image: nishant0328/argocd-app:1
+    ports:
+    - containerPort: 80
