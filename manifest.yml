@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: ArgoCD-App
-    image: nishant0328/argocd-app:1
+    image: nishant0328/argocd-app:c16c638ece73bfe3f727d66dcee8425a67b0648c
     ports:
     - containerPort: 80
